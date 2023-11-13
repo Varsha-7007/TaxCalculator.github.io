@@ -1,0 +1,1054 @@
+.freeCryptoTax {
+  position: relative;
+  line-height: 42px;
+}
+.maskGroupIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.btc {
+  position: relative;
+  font-weight: 500;
+}
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameWrapper1,
+.frameWrapper2,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-3xs);
+}
+.frameWrapper1 {
+  border-radius: var(--br-41xl);
+  background-color: var(--color-aliceblue-200);
+  border: 2px solid var(--primary-blue);
+  color: var(--gray-1);
+}
+.frameWrapper2,
+.frameWrapper3 {
+  border-radius: var(--br-33xl);
+  background-color: var(--default-white);
+  border: 1px solid var(--color-silver);
+}
+.frameWrapper3 {
+  border: 1px solid var(--gray-5);
+}
+.vectorIcon {
+  position: relative;
+  width: 8.3px;
+  height: 5.8px;
+}
+.othersCryptosParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper7 {
+  border-radius: var(--br-33xl);
+  background-color: var(--default-white);
+  border: 1px solid var(--gray-5);
+  box-sizing: border-box;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-11xl) var(--padding-4xs)
+    var(--padding-3xs);
+}
+.frameDiv {
+  width: 711px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-sm);
+  color: var(--night-background-0);
+}
+.financialYear {
+  position: relative;
+  line-height: 24px;
+}
+.divInner,
+.fy202324Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.divInner {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  width: 228px;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-2xs) var(--padding-mid)
+    var(--padding-xs);
+  box-sizing: border-box;
+}
+.div1,
+.financialYearParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.div1 {
+  width: 228px;
+  height: 48px;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.financialYearParent {
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.emojioneflagForAustraliaIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divChild {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-xs);
+}
+.div2,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div2 {
+  width: 273px;
+  height: 48px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.frameParent1 {
+  gap: var(--gap-21xl);
+}
+.hr {
+  position: relative;
+  border-bottom: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 713px;
+  height: 1px;
+}
+.enterPurchasePriceOfCryptoParent,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wrapper {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-base);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.enterPurchasePriceOfCryptoParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.component8,
+.div3 {
+  display: flex;
+  flex-direction: row;
+}
+.div3 {
+  width: 711px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.component8 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumslateblue-100);
+  border: 1px solid var(--gray-2);
+  box-sizing: border-box;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.months {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-weight: 500;
+}
+.component8Parent {
+  flex: 1;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.component8Item {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.months1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--gray-2);
+}
+.component8Group {
+  flex: 1;
+  height: 84px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  color: var(--primary-darkblue);
+}
+.component8Group,
+.frameParent3,
+.investmentTypeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  width: 335px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+  color: var(--gray-2);
+}
+.investmentTypeParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+}
+.ofExcessOver,
+.parent {
+  display: flex;
+  align-items: center;
+}
+.parent.dropdown {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  width: 335px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+}
+.ofExcessOver {
+  position: relative;
+  font-weight: 500;
+  width: 347px;
+  height: 25px;
+  flex-shrink: 0;
+}
+.div8,
+.taxRateParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.taxRateParent {
+  flex: 1;
+  height: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--gray-2);
+}
+.div8 {
+  width: 711px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-sm);
+}
+.b {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--text-green1);
+}
+.netCapitalGainsTaxAmountParent {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mintcream);
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.b1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-darkblue);
+}
+.theTaxYouNeedToPayParent {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue-100);
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frameParent4 {
+  width: 713px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.notSatisfied {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 121px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.iconlylightarrowRight {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.notSatisfiedParent,
+.talkToAnExpertNowParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.talkToAnExpertNowParent {
+  display: flex;
+  gap: var(--gap-9xs);
+  color: var(--primary-blue);
+}
+.notSatisfiedParent {
+  display: none;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+}
+.frameGroup {
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.frameA,
+.frameGroup,
+.freeCryptoTaxCalculatorAusParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.freeCryptoTaxCalculatorAusParent {
+  width: 713px;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.frameA {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 79px;
+  align-items: flex-start;
+  padding: var(--padding-5xs);
+  color: inherit;
+}
+.frameContainer {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--default-white);
+  width: 881px;
+}
+.frameWrapper {
+  height: 879px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div15 {
+  position: absolute;
+  top: 179px;
+  left: 24px;
+  width: 916px;
+  height: 255px;
+}
+.frequentlyAskedQuestions {
+  position: relative;
+  line-height: 21.6px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.howAreCryptocurrencies {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.howAreCryptocurrenciesContainer {
+  position: relative;
+  line-height: 21.6px;
+}
+.theAustralianTaxation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--gray-2);
+  display: inline-block;
+  height: 129px;
+  flex-shrink: 0;
+}
+.howAreCryptocurrenciesTaxedParent {
+  align-self: stretch;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.hr1,
+.theDistinctionBetween {
+  position: relative;
+  width: 830px;
+}
+.hr1 {
+  border-bottom: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  height: 1px;
+}
+.theDistinctionBetween {
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--gray-2);
+  display: inline-block;
+}
+.whatsTheDifferenceBetweenParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.yesAccordingTo {
+  margin: 0;
+}
+.yesAccordingToContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--gray-2);
+  display: inline-block;
+  width: 830px;
+  height: 248px;
+  flex-shrink: 0;
+}
+.howDoIContainer {
+  position: relative;
+  line-height: 21.6px;
+  font-family: var(--font-inherit);
+  color: var(--color-gray-300);
+}
+.hereAreTheContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--gray-2);
+  display: inline-block;
+  width: 640px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.holdForOver {
+  font-family: var(--font-inter);
+}
+.holdYourCrypto {
+  font-weight: 500;
+}
+.holdForOver12MonthsHold {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.holdForOverContainer {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 830px;
+}
+.howDoILowerMyCryptocurrenParent {
+  height: 448px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--gray-1);
+  font-family: var(--font-inter);
+}
+.koinxIsAContainer,
+.theAustralianTaxationContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--gray-2);
+  display: inline-block;
+  width: 830px;
+  height: 151px;
+  flex-shrink: 0;
+}
+.koinxIsAContainer {
+  height: 96px;
+}
+.doIHaveContainer2 {
+  position: relative;
+  line-height: 21.6px;
+  display: flex;
+  align-items: center;
+  width: 696px;
+}
+.howDoIContainer1 {
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 21.6px;
+  font-family: var(--font-inherit);
+  color: var(--color-gray-300);
+}
+.inOrderToContainer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 830px;
+}
+.howDoIUseACryptocurrencyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--gray-2);
+  font-family: var(--font-inter);
+}
+.span {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.consultWithA {
+  text-decoration: underline;
+  color: var(--primary-blue);
+}
+.stillHaveDoubtsContainer {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 100%;
+  display: inline-block;
+  width: 421px;
+  height: 19px;
+  flex-shrink: 0;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.toCalculateYour {
+  margin: 0;
+  font-weight: 500;
+}
+.toCalculateYourContainer {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 830px;
+  height: 203px;
+  flex-shrink: 0;
+}
+.atoIndividualIncome {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 214px;
+  height: 50.2px;
+}
+.groupItem {
+  top: 50.2px;
+}
+.div16 {
+  position: absolute;
+  top: 64.7px;
+  left: 59px;
+  line-height: 160%;
+  display: inline-block;
+  width: 98px;
+  height: 21px;
+}
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 100.3px;
+  left: 0;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 214px;
+  height: 50.2px;
+}
+.rectangleDiv {
+  top: 150.5px;
+}
+.div17 {
+  position: absolute;
+  top: 165.1px;
+  left: 33px;
+  line-height: 160%;
+  display: inline-block;
+  width: 149px;
+  height: 21px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 200.7px;
+  left: 0;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 214px;
+  height: 50.2px;
+}
+.div18 {
+  position: absolute;
+  top: 215.2px;
+  left: 30px;
+  line-height: 160%;
+  display: inline-block;
+  width: 156px;
+  height: 21px;
+}
+.groupChild2 {
+  position: absolute;
+  top: 250.8px;
+  left: 0;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 214px;
+  height: 50.2px;
+}
+.div19 {
+  position: absolute;
+  top: 265.4px;
+  left: 68px;
+  line-height: 160%;
+  display: inline-block;
+  width: 80px;
+  height: 21px;
+}
+.groupChild3 {
+  position: absolute;
+  top: 0;
+  left: 214px;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 392px;
+  height: 50.2px;
+}
+.taxRate1 {
+  position: absolute;
+  top: 14.6px;
+  left: 382px;
+  font-size: var(--font-size-base);
+  line-height: 160%;
+  display: inline-block;
+  color: var(--color-gray-300);
+  width: 68px;
+  height: 21px;
+}
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7 {
+  position: absolute;
+  top: 50.2px;
+  left: 214px;
+  background-color: var(--default-white);
+  border: 1px solid var(--gray-2);
+  box-sizing: border-box;
+  width: 214px;
+  height: 50.2px;
+}
+.groupChild5,
+.groupChild6,
+.groupChild7 {
+  border: 0.5px solid var(--gray-3);
+  width: 392px;
+}
+.groupChild6,
+.groupChild7 {
+  top: 100.3px;
+}
+.groupChild7 {
+  top: 150.5px;
+}
+.ofTheExcess {
+  position: absolute;
+  top: 165.1px;
+  left: 250px;
+  line-height: 160%;
+  display: inline-block;
+  width: 332px;
+  height: 21px;
+}
+.groupChild8 {
+  position: absolute;
+  top: 200.7px;
+  left: 214px;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 392px;
+  height: 50.2px;
+}
+.ofTheExcess1 {
+  position: absolute;
+  top: 215.2px;
+  left: 249px;
+  line-height: 160%;
+  display: inline-block;
+  width: 335px;
+  height: 21px;
+}
+.groupChild9 {
+  position: absolute;
+  top: 250.8px;
+  left: 214px;
+  background-color: var(--default-white);
+  border: 0.5px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 392px;
+  height: 50.2px;
+}
+.ofTheExcessContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.ofTheExcessContainer {
+  position: absolute;
+  top: 264.6px;
+  left: 248px;
+  line-height: 160%;
+  display: flex;
+  align-items: flex-end;
+  width: 336px;
+  height: 21.8px;
+}
+.div20,
+.div21,
+.income,
+.nil19 {
+  position: absolute;
+  line-height: 160%;
+  display: inline-block;
+  height: 21px;
+}
+.income {
+  top: 14.6px;
+  left: 79px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+  width: 58px;
+}
+.div20,
+.div21,
+.nil19 {
+  top: 64.7px;
+  left: 405px;
+  width: 23px;
+}
+.div21,
+.nil19 {
+  top: 114.9px;
+  left: 38px;
+  width: 139px;
+}
+.nil19 {
+  left: 277px;
+  width: 279px;
+}
+.rectangleParent {
+  position: relative;
+  width: 606px;
+  height: 301px;
+  font-size: var(--font-size-sm);
+  color: var(--gray-2);
+}
+.atoIndividualIncomeTaxRateParent {
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--color-gray-300);
+}
+.capitalGainsTax {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 21.6px;
+  display: flex;
+  color: var(--color-gray-300);
+  align-items: center;
+  width: 830px;
+}
+.capitalGainlossContainer,
+.noteCapitalProceedsContainer {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 830px;
+  height: 38px;
+  flex-shrink: 0;
+}
+.noteCapitalProceedsContainer {
+  height: 287px;
+}
+.frameParent5,
+.frequentlyAskedQuestionsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  gap: var(--gap-mini);
+  font-size: var(--font-inherit);
+  color: var(--color-gray-300);
+  font-family: var(--font-inherit);
+}
+.frequentlyAskedQuestionsParent {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  gap: var(--gap-5xl);
+}
+.div14 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--default-white);
+  width: 881px;
+  height: 3845px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div13,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div13 {
+  width: 881px;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-200);
+}
+.frameParent {
+  gap: var(--gap-xl);
+}
+.getStartedWith,
+.withOurRange {
+  position: relative;
+  line-height: 40px;
+  display: inline-block;
+  width: 268px;
+}
+.withOurRange {
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-whitesmoke-100);
+  width: 327px;
+  height: 68px;
+  flex-shrink: 0;
+}
+.getStartedWithKoinxForFreParent {
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameIcon {
+  position: relative;
+  width: 178.7px;
+  height: 166.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.getStartedFor {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.frameWrapper8,
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+}
+.frameWrapper8 {
+  border-radius: var(--br-5xs);
+  background-color: var(--default-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.groupContainer {
+  width: 237px;
+}
+.groupWrapper {
+  position: relative;
+  width: 237px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray-1);
+}
+.divInner1,
+.frameParent6 {
+  width: 426px;
+  height: 576px;
+  flex-direction: column;
+}
+.frameParent6 {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+}
+.divInner1 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.div22,
+.divInner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div22 {
+  width: 427px;
+  height: 587px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 820.515625px;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--default-white);
+}
+.div {
+  position: absolute;
+  top: 108px;
+  left: 56px;
+  height: 2507px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--gray-1);
+  font-family: var(--font-inter);
+}
+
+
+.dropdownContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,7 @@
+.auslongTerm {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 6060px;
+  overflow: hidden;
+}

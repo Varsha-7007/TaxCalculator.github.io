@@ -1,0 +1,121 @@
+
+.koinxLogoWrapper {
+  position: absolute;
+  top: 4px;
+  left: 60px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.features {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.exchangesWrapper,
+.featuresWrapper {
+  background-color: var(--default-white);
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.exchangesWrapper {
+  height: 70px;
+}
+.blog {
+  position: absolute;
+  top: 25.5px;
+  left: 0;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.blogWrapper {
+  position: relative;
+  background-color: var(--default-white);
+  width: 34px;
+  height: 70px;
+}
+.frameContainer,
+.frameWrapper,
+.signInWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameContainer {
+  position: absolute;
+  top: -0.5px;
+  left: 0.2px;
+  width: 728px;
+  justify-content: flex-end;
+  gap: var(--gap-13xl);
+}
+.frameWrapper,
+.signInWrapper {
+  justify-content: center;
+}
+.signInWrapper {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--primary-blue);
+  box-sizing: border-box;
+  width: 112px;
+  height: 40px;
+  padding: var(--padding-5xs);
+}
+.frameWrapper {
+  position: absolute;
+  top: 4.5px;
+  left: 797px;
+  height: 70px;
+  color: var(--primary-blue);
+}
+.feedback {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.feedbackWrapper {
+  position: absolute;
+  top: 0;
+  left: 671px;
+  height: 70px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-2);
+}
+.frameGroup,
+.frameParent {
+  position: absolute;
+  top: 0.5px;
+  left: 475px;
+  width: 909px;
+  height: 79px;
+}
+.frameParent {
+  top: 0;
+  left: -0.2px;
+  background-color: var(--default-white);
+  box-shadow: var(--box-shadow1);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 80px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray-1);
+  font-family: var(--font-inter);
+}
+
+.fullScreenWrapper {
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
