@@ -1,7 +1,4 @@
 import { useEffect } from "react";
-import Header from "../components/Header";
-import CryptoTaxCalculatorContainer from "../components/CryptoTaxCalculatorContainer";
-import styles from "./AusLongTerm.module.css";
 
 import {
   Routes,
@@ -48,13 +45,13 @@ function App() {
   }, [pathname]);
 
   return (
-   // <Routes>
-      //<Route path="/" element={<AusLongTerm />} />
-    //</Routes>
-    <div className={styles.auslongTerm}>
-      <Header />
-      <CryptoTaxCalculatorContainer />
-    </div>
+   <Routes>
+      <Route path="/" element={<AusLongTerm />} />
+    </Routes>
+    
   );
 }
+
+
+
 export default App;
