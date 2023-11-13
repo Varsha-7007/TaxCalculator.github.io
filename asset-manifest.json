@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TaxCalculator.github.io/static/css/main.dd05daa6.css",
+    "main.js": "/TaxCalculator.github.io/static/js/main.731e53cc.js",
+    "index.html": "/TaxCalculator.github.io/index.html",
+    "main.dd05daa6.css.map": "/TaxCalculator.github.io/static/css/main.dd05daa6.css.map",
+    "main.731e53cc.js.map": "/TaxCalculator.github.io/static/js/main.731e53cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd05daa6.css",
+    "static/js/main.731e53cc.js"
+  ]
+}
